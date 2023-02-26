@@ -1,46 +1,99 @@
 body{
     margin: 0px;
     text-align: center;
- 
     font-family: 'Merriweather',serif;
+    background-color:  #E1EEDD;
 }
-
-h1{
-    color: #609966;
-     margin:0px;
-    font-family: 'Sacramento', cursive;
-    font-size: 60px;
-}
-#ceo{
-    color: #609966;
-    font-family: 'Sacramento', cursive;
-    font-size: 25px;
-    margin: 0px;
-}
-#cloud1{
-    position: absolute;
-    left: 900px;
-    bottom: 520px;
-    
-}
-#cloud2{
-    position: absolute;
-}
-
-
 .top{
-    padding-top: 200px;
+    padding-top: 160px;
     position:relative;
     background-color: #E1EEDD;
     width: 100%;
-    height: 480px;
+    height: 500px;
   
 }
-.bottom{
-    background-color: #c8ebbd;
-    width: 100%;
-    height: 500px;
 
+h1{  display:inline;
+    color: #609966;
+    margin:0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+}
+h2{
+    display:inline;
+    color: #609966;
+    margin:0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+
+}
+
+#ceo{   
+    color: #609966;   
+}
+
+#cloud1{
+    position: absolute;
+    left: 900px;
+    bottom: 520px;    
+}
+
+#cloud2{
+    position: absolute;
+    left:400px;
+}
+
+
+
+.middle{
+    background-color: #E1EEDD;
+    width: 100%;
+    height: 600px;
+    margin-top: 0px;
+
+}
+.about-kashidari{
+    width: 50%;
+    margin:150px auto;
+ 
+
+}
+.about-tech{
+    width: 50%;
+    height: 170px;
+    margin:150px auto;
+ 
+
+}
+.k1{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 0px;
+    line-height: 28px;
+    color: #329d3c;
+
+}
+.k2{
+    text-align:left;
+    margin-top: 0px;
+    margin-right: 20px;
+    color: #329d3c;
+}
+
+.middle-img-1{
+    border-radius: 10px;
+    float: left;
+    width:37%;
+    height: 150px;
+    margin-right: 20px;
+}
+.middle-img-2{
+        border-radius: 10px;
+        float:right;
+        width:37%;
+        height: 170px;
+        margin-left: 20px;
+    
 }
 .end{
     padding: 25px;
